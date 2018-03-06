@@ -1,4 +1,4 @@
-FROM thedrum/php:7.1-fpm
+FROM thedrum/php:7.2-fpm
 MAINTAINER Chris Shennan <chris@chrisshennan.com>
 
 RUN apt-get install -y git
@@ -8,7 +8,7 @@ RUN echo "memory_limit=-1" > "$PHP_INI_DIR/conf.d/memory-limit.ini" \
 
 ENV COMPOSER_ALLOW_SUPERUSER 1
 ENV COMPOSER_HOME /composer
-ENV COMPOSER_VERSION 1.5.1
+ENV COMPOSER_VERSION 1.6.3
 
 RUN curl -s -f -L -o /tmp/installer.php https://raw.githubusercontent.com/composer/getcomposer.org/da290238de6d63faace0343efbdd5aa9354332c5/web/installer \
  && php -r " \
