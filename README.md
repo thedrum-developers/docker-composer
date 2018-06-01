@@ -1,5 +1,10 @@
 # Supported tags and respective `Dockerfile` links
- - `0.1`, `latest` (*[0.1/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/0.1/Dockerfile)*)
+ - 7.2, latest (*[7.2/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/7.2/Dockerfile)*)
+ - 7.1 (*[7.1/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/7.1/Dockerfile)*)
+ - 7.0 (*[7.0/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/7.0/Dockerfile)*)
+ - 5.6 (*[5.6/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/5.6/Dockerfile)*)
+ - 5.5 (*[5.5/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/5.5/Dockerfile)*)
+ - 5.3 (*[5.3/Dockerfile](https://github.com/thedrum-developers/docker-composer/blob/master/5.3/Dockerfile)*)
 
 # Usage
 ```
